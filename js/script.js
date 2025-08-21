@@ -5,7 +5,8 @@ $(function () {
     $('.menu-opener').on('click', function (e) {
         e.preventDefault();
         $(this).toggleClass('active');
-        $('.navbar').toggleClass('active');
+        $('.navbar-collapse').toggleClass('active');
+        $('body').toggleClass('no-scroll');
     });
 
     $(window).on("scroll", function () {
@@ -67,8 +68,11 @@ $(function () {
                 320: {
                     slidesPerView: 1,
                 },
-                768: {
+                576: {
                     slidesPerView: 1.4,
+                },
+                768: {
+                    slidesPerView: 2,
                 },
                 1024: {
                     slidesPerView: 2,

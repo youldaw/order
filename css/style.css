@@ -537,6 +537,10 @@ svg path {
 	display: flex;
 	align-items: center;
 	gap: 0 9px;
+	margin-bottom: 15px;
+}
+.program-body ul li:last-child {
+	margin-bottom: 0;
 }
 .program-body ul li span {
 	max-width: 520px;
@@ -545,6 +549,7 @@ svg path {
 	line-height: 130%;
 	letter-spacing: -0.02em;
 	color: #fff;
+	margin-bottom: 0;
 }
 .program-text span {
 	font-weight: 400;
@@ -612,11 +617,12 @@ svg path {
 
 .review-sec .nav-pills {
 	margin-bottom: 30px;
-	gap: 0 10px;
+	gap: 10px;
 }
 .nav-pills .nav-link {
 	background-color: #F5F5F5;
 	min-width: 100px;
+	padding: 8px;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
@@ -967,7 +973,7 @@ footer .container {
 .course-btn {
 	display: flex;
 	align-items: center;
-	gap: 50px;
+	gap: 30px 50px;
 }
 .course-btn .border-btn {
 	color: #010101;
@@ -1087,12 +1093,17 @@ footer .container {
 
 
 
+.modal-dialog {
+	margin: 2rem 1rem;
+}
+.for-tab {
+	display: none;
+}
+.mob{display: none !important;}
 
-/* @media (min-width: 1200px) {
-	.container {
-		max-width: 1240px;
-	}
-} */
+
+
+
 
 
 
@@ -1186,10 +1197,16 @@ footer .container {
 		margin-bottom: 40px;
 	}
 	.ftr-right .border-btn, .ftr-form .white-btn {
-		padding: 10px 20px;
+		padding: 15px 20px;
 	}
 	.navbar-expand-lg .navbar-nav .nav-item:nth-child(3) {
 		margin-left: 100px;
+	}
+	.modal-content {
+		padding: 30px;
+	}
+	.ftr-title p, .ftr-right .ftr-right-title {
+		font-size: 45px;
 	}
 }
 
@@ -1201,10 +1218,500 @@ footer .container {
 	}
 	.nav-btn .white-btn,
 	.white-btn {
-		padding: 10px 20px;
+		padding: 20px;
+		font-size: 12px;
 	}
 	.main-right-text p,
 	.main-right-text span {
 		font-size: 45px;
+	}
+	header .navbar-expand-lg .navbar-nav .nav-link img {
+		display: none;
+	}
+	.situation-left span,
+	.main-left .h1 {
+		font-size: 45px;
+	}
+	.situation-left span {
+		margin-bottom: 50px;
+	}
+	.situation-left p {
+		font-size: 18px;
+	}
+	.situation-right {
+		padding-top: 110px;
+	}
+	.situation-item {
+		margin-bottom: 30px;
+	}
+	.situation-item p {
+		font-size: 20px;
+		min-width: 380px;
+		width: 100%;
+	}
+	.situation-quote i {
+		font-size: 30px;
+	}
+	.situation-left {
+		padding: 130px 20px 0;
+	}
+	.program-left span {
+		font-size: 40px;
+		margin-bottom: 60px;
+	}
+	.program-left p {
+		font-size: 20px;
+	}
+	.program-item {
+		padding: 40px;
+	}
+	.program-head span {
+		font-size: 28px;
+	}
+	.program-head p {
+		margin-bottom: 30px;
+		font-size: 45px;
+	}
+	.program-body ul li span {
+		font-size: 18px;
+	}
+	.program-body ul li {
+		margin-bottom: 10px;
+	}
+	.program-body {
+		margin-bottom: 30px;
+	}
+	.border-btn {
+		padding: 15px 35px;
+	}
+	.h3 {
+		font-size: 45px;
+	}
+	.news-body a {
+		font-size: 18px;
+	}
+	.news-body {
+		padding: 20px;
+	}
+	.ftr-contact span,
+	.ftr-text p, .ftr-text span {
+		font-size: 16px;
+	}
+}
+
+
+@media (max-width: 992px) {
+	.course-block {
+		flex-wrap: wrap;
+	}
+	.course-img {
+		display: flex;
+		justify-content: space-between;
+		gap: 0 20px;
+	}
+	.modal-img {
+		margin-top: 50px;
+	}
+	.modal-img img {
+		height: 260px;
+		width: 100%;
+		object-fit: cover;
+	}
+	.course-in {
+		max-width: 100%;
+	}
+	.navbar-expand-lg .navbar-nav .nav-item:nth-child(2), 
+	.navbar-expand-lg .navbar-nav .nav-item:nth-child(1),
+	.navbar-expand-lg .navbar-nav .nav-item:nth-child(3), 
+	.navbar-expand-lg .navbar-nav .nav-item:nth-child(4), 
+	.navbar-expand-lg .navbar-nav .nav-item:nth-child(5) {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.nav-btn {
+		display: none;
+	}
+	.navbar-collapse {
+		position: fixed;
+		right: -100%;
+		top: 0;
+		width: 60%;
+		height: 100%;
+		background: #27314A;
+		z-index: 100;
+		padding: 100px 50px;
+		transition: .4s linear;
+	}
+	.navbar-collapse.active {
+		right: 0;
+	}
+	header .navbar-expand-lg .navbar-nav .nav-link {
+		font-size: 22px;
+		line-height: 140%;
+	}
+	header .navbar .navbar-nav .nav-item {
+		margin-bottom: 30px;
+	}
+	.for-tab {
+		display: inline-flex;
+	}
+	.main-sec::after {
+		width: 100%;
+		background: rgba(22, 36, 2, 0.698);
+	}
+	.main-left {
+		padding-top: 200px;
+		margin-bottom: 40px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.main-left p {
+		order: 2;
+	}
+	.main-left .h1 {
+		order: 1;
+	}
+	.main-right {
+		max-width: 100%;
+	}
+	.navbar-brand span {
+		display: inline-block;
+	}
+	header {
+		padding: 20px 0;
+	}
+	.form-flex {
+		margin-bottom: 20px;
+	}
+	.menu-opener {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 32px;
+		gap: 7px 0;
+		padding: 0;
+		border: none;
+		background: transparent;
+	}
+	.menu-opener span {
+		display: inline-block;
+		width: 32px;
+		border-radius: 2px;
+		height: 2px;
+		background: #fff;
+		position: relative;
+		z-index: 101;
+	}
+	.menu-opener.active .two {
+		opacity: 0;
+	}
+	.menu-opener.active .one {
+		transform: rotate(45deg);
+		top: 9px;
+	}
+	.menu-opener.active .three {
+		transform: rotate(-45deg);
+		top: -9px;
+	}
+	.situation::after {
+		content: none;
+	}
+	.situation-left {
+		padding: 100px 0 0;
+		margin: auto;
+	}
+	.situation-right {
+		padding-top: 80px;
+		margin: 0 auto;
+	}
+	.advan-img img {
+		width: 398px;
+		position: absolute;
+		left: -5%;
+		top: -430px;
+	}
+	.situation-quote i {
+		font-size: 26px;
+	}
+	.situation-quote {
+		padding-right: 20px;
+	}
+	.advan-item {
+		margin-bottom: 80px;
+	}
+	.advan-right {
+		padding-top: 80px;
+	}
+	.program-sec::after {
+		width: 100%;
+		top: 0;
+		height: 100%;
+	}
+	.advan-btn {
+		top: 0;
+		margin-top: 80px;
+	}
+	.advan-sec {
+		padding: 80px 0;
+	}
+	.program-left {
+		padding-bottom: 0;
+	}
+	.program-col {
+		padding-top: 100px;
+	}
+	.review-sec {
+		padding-top: 80px;
+	}
+	.news-box .row {
+		gap: 24px 0;
+	}
+	.news-sec {
+		padding: 80px 0;
+	}
+	.ftr-right {
+		margin: 40px 0 0;
+	}
+	.ftr-img img {
+		display: none;
+	}
+	footer {
+		padding: 80px 0 20px;
+		background: #010101;
+	}
+	.ftr-title {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.ftr-text {
+		margin-bottom: 30px;
+	}
+	.ftr-right {
+		text-align: center;
+		margin: 80px auto 0;
+	}
+	.ftr-left {
+		margin: 0 auto;
+	}
+	.ftr-right .ftr-right-title {
+		margin-bottom: 20px;
+	}
+	.ftr-contact {
+		margin-bottom: 30px;
+	}
+	.ftr-end {
+		margin-top: 30px;
+	}
+}
+
+
+@media (max-width: 576px) {
+	.mob{display: block !important;}
+	.pc{display: none !important;}
+
+	.list span {
+		font-size: 20px;
+	}
+	.list ol li {
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.modal-content {
+		padding: 10px;
+	}
+	.course-btn {
+		flex-wrap: wrap;
+	}
+	.course-title {
+		margin-bottom: 30px;
+	}
+	.situation-right {
+		overflow: hidden;
+	}
+	.situation-item {
+		flex-direction: column;
+		align-items: center;
+	}
+	.situation-item p {
+		min-width: auto;
+		text-align: center;
+		font-size: 16px;
+	}
+	.situation-item {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.situation-left span, .main-left .h1 {
+		font-size: 32px;
+	}
+	.situation-left span {
+		margin-bottom: 40px;
+	}
+	.situation-left p {
+		font-size: 16px;
+	}
+	.advan-img img {
+		position: unset;
+		width: 100%;
+	}
+	.situation-quote {
+		margin-top: 90px;
+		text-align: center;
+	}
+	.situation-quote i {
+		font-size: 23px;
+	}
+	.situation-quote i {
+		padding: 0 0 60px;
+	}
+	.advan-item p {
+		font-size: 16px;
+	}
+	.advan-item .num {
+		font-size: 50px;
+		left: 50px;
+		top: -35px;
+	}
+	.program-sec {
+		min-height: auto;
+		padding-top: 60px;
+	}
+	.program-left span {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+	.program-left p {
+		font-size: 16px;
+		font-weight: 300;
+	}
+	.program-col {
+		padding: 0;
+	}
+	.program-item {
+		padding: 40px 30px;
+	}
+	.program-head span {
+		font-size: 24px;
+		margin-bottom: 10px;
+		line-height: 120%;
+	}
+	.program-head p {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	.program-body ul li span {
+		font-size: 16px;
+		line-height: 120%;
+	}
+	.program-text p {
+		font-size: 14px;
+	}
+	.h3 {
+		font-size: 32px;
+	}
+	.news-body {
+		padding: 15px;
+	}
+	.news-body a {
+		font-size: 16px;
+	}
+	.news-sec {
+		padding: 60px 0;
+	}
+	.situation {
+		padding-bottom: 80px;
+	}
+	.main-right-text p, .main-right-text span {
+		font-size: 32px;
+	}
+	.main-left p {
+		font-size: 16px;
+		line-height: 130%;
+		font-weight: 300;
+		margin: 10px 0 0;
+	}
+	.main-left {
+		padding-top: 150px;
+	}
+	.navbar-brand {
+		margin-right: 30px;
+	}
+	.navbar-brand img {
+		height: 60px;
+	}
+	.navbar-brand span {
+		font-size: 20px;
+		margin-left: 20px;
+	}
+	footer {
+		padding: 60px 0 30px;
+	}
+	.ftr-title p, .ftr-right .ftr-right-title {
+		font-size: 32px;
+	}
+	.ftr-contact span, .ftr-text p, .ftr-text span {
+		line-height: 120%;
+	}
+	.form-flex {
+		flex-direction: column;
+	}
+	.ftr-contact a {
+		font-size: 26px;
+	}
+	.ftr-links {
+		text-align: center;
+		justify-content: center;
+	}
+	.ftr-right .border-btn, .ftr-form .white-btn {
+		width: 100%;
+	}
+	.ftr-end {
+		text-align: center;
+		justify-content: center;
+	}
+	footer .container, header .container {
+		max-width: 100%;
+	}
+	.ftr-block {
+		width: auto;
+	}
+	.review-block {
+		padding: 20px;
+	}
+	.advan-item .line {
+		margin-right: 40px;
+	}
+	.navbar-collapse {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 100px 20px 20px;
+	}
+	body.no-scroll {
+		overflow: hidden;
+	}
+	header .navbar-expand-lg .navbar-nav .nav-link {
+		font-size: 20px;
+	}
+	.for-tab.btn-block {
+		width: 100%;
+	}
+	.btn-block .white-btn {
+		width: 100%;
+		margin-top: 40px;
+	}
+	.course-body {
+		margin-top: 50px;
+	}
+	.list span {
+		font-size: 18px;
+	}
+	.course-img {
+		flex-direction: column;
+	}
+	.modal-img {
+		margin-top: 40px;
 	}
 }
