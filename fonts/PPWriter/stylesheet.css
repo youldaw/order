@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'PP Writer';
+    src: url('PPWriter-BoldItalic.woff2') format('woff2'),
+        url('PPWriter-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer Text';
+    src: url('PPWriter-BoldText.woff2') format('woff2'),
+        url('PPWriter-BoldText.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer';
+    src: url('PPWriter-BlackItalic.woff2') format('woff2'),
+        url('PPWriter-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer Book';
+    src: url('PPWriter-Book.woff2') format('woff2'),
+        url('PPWriter-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer';
+    src: url('PPWriter-Regular.woff2') format('woff2'),
+        url('PPWriter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer Text';
+    src: url('PPWriter-RegularText.woff2') format('woff2'),
+        url('PPWriter-RegularText.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer';
+    src: url('PPWriter-RegularItalic.woff2') format('woff2'),
+        url('PPWriter-RegularItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer';
+    src: url('PPWriter-Bold.woff2') format('woff2'),
+        url('PPWriter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer';
+    src: url('PPWriter-UltraboldItalic.woff2') format('woff2'),
+        url('PPWriter-UltraboldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer';
+    src: url('PPWriter-Ultrabold.woff2') format('woff2'),
+        url('PPWriter-Ultrabold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer';
+    src: url('PPWriter-Thin.woff2') format('woff2'),
+        url('PPWriter-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Writer Thin Text';
+    src: url('PPWriter-ThinText.woff2') format('woff2'),
+        url('PPWriter-ThinText.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
