@@ -1093,9 +1093,7 @@ footer .container {
 
 
 
-.modal-dialog {
-	margin: 2rem 1rem;
-}
+
 .for-tab {
 	display: none;
 }
@@ -1145,6 +1143,9 @@ footer .container {
 
 
 @media (max-width: 1400px) {
+	.modal-dialog {
+		margin: 2rem 1rem;
+	}
 	.navbar-brand span {
 		display: none;
 	}
