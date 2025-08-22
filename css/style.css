@@ -1507,6 +1507,7 @@ footer .container {
 }
 
 
+
 @media (max-width: 576px) {
 	.mob{display: block !important;}
 	.pc{display: none !important;}
